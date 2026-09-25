@@ -1,0 +1,28 @@
+{
+  "patient_ref": "PT-0003",
+  "patient_name": "Ananya Reddy",
+  "mrn": "MRN-771034",
+  "date_of_birth": "2003-07-09",
+  "patient_phone": "+91 90080 55621",
+  "admission_date": "2026-09-18",
+  "discharge_date": "2026-09-22",
+  "primary_diagnosis": "Diabetic ketoacidosis (new-onset type 1 diabetes mellitus)",
+  "secondary_diagnoses": ["Mild dehydration"],
+  "procedures": [],
+  "clinical_course": "Presented with 2-day history of polyuria, polydipsia and vomiting; found to be in DKA with glucose 468 mg/dL, pH 7.18, ketones 4+. Managed on IV insulin infusion and fluid/electrolyte replacement per protocol for 36h, anion gap closed by day 2. Transitioned to subcutaneous basal-bolus insulin on day 3, tolerating oral intake, blood glucose stable 110-180 mg/dL on discharge regimen. Diabetes educator reviewed insulin technique, hypoglycemia recognition and sick-day rules with patient and family before discharge.",
+  "follow_up": "Endocrinology OPD review in 5 days with home glucose log. Repeat HbA1c and TSH/anti-TPO at 3 months. Contact clinic if unable to reach target glucose despite correct dosing.",
+  "warning_signs": "Blood glucose below 70 mg/dL with symptoms not relieved by juice/glucose tablets, repeated vomiting, fruity breath odor, confusion, breathing difficulty, or inability to keep fluids down.",
+  "activity_and_diet": "Diabetic diet as counseled by dietitian, consistent carbohydrate intake at meals. Normal activity as tolerated; carry a fast-acting glucose source at all times.",
+  "submitted_by": "dr.iyer",
+  "medications": [
+    {"name": "insulin glargine", "dose_x1000": 14000, "dose_unit": "units", "route": "sc",
+     "frequency": "once daily at bedtime", "duration_days": null,
+     "change_type": "new", "notes": "adjust per endocrinology follow-up"},
+    {"name": "insulin aspart", "dose_x1000": 6000, "dose_unit": "units", "route": "sc",
+     "frequency": "before each meal per sliding scale", "duration_days": null,
+     "change_type": "new", "notes": "titrate with home glucose readings"},
+    {"name": "ondansetron", "dose_x1000": 4000, "dose_unit": "mg", "route": "oral",
+     "frequency": "every 8 hours as needed for nausea", "duration_days": 3,
+     "change_type": "new", "notes": null}
+  ]
+}

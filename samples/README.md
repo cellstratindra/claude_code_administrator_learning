@@ -8,6 +8,7 @@ material, **not clinical guidance**.
 |---|---|
 | `records/appendectomy_record.json` | Ex 5 (first POST), Ex 6 (first draft) |
 | `records/pneumonia_record.json` | Ex 5–6 (second record; shows retrieval picking a different reference) |
+| `records/dka_record.json` | Extra sample record (new-onset T1DM/DKA); no matching reference doc uploaded, so retrieval should return no strong match |
 | `references/ref_laparoscopic_appendectomy.md` | Ex 6 RAG upload |
 | `references/ref_community_acquired_pneumonia.md` | Ex 6 RAG upload |
 | `references/ref_heart_failure.md` | Ex 6 RAG upload (distractor: should NOT be retrieved for the two records) |
