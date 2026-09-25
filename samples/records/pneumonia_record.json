@@ -1,0 +1,29 @@
+{
+  "patient_ref": "PT-0002",
+  "patient_name": "Sunita Deshpande",
+  "mrn": "MRN-551203",
+  "date_of_birth": "1958-11-02",
+  "patient_phone": "+91 99700 45678",
+  "admission_date": "2026-09-18",
+  "discharge_date": "2026-09-23",
+  "primary_diagnosis": "Community-acquired pneumonia",
+  "secondary_diagnoses": ["Type 2 diabetes mellitus", "Hypertension"],
+  "procedures": [],
+  "clinical_course": "Admitted with 4 days cough, fever, SOB. CXR R lower lobe consolidation. SpO2 91% RA on arrival, O2 via NP x48h. IV ceftriaxone + oral azithro, stepped down to PO on day 3. BSL labile on admission, insulin sliding scale, now back on home metformin. Afebrile >48h, SpO2 96% RA, ambulant.",
+  "follow_up": "GP review in 5-7 days. Repeat chest X-ray in 6 weeks. Check blood sugar at home twice daily and bring the log.",
+  "warning_signs": "Breathlessness at rest, chest pain, lips turning blue, fever returning after 2 days, confusion, blood sugar above 300 or below 70.",
+  "activity_and_diet": "Rest, increase activity gradually. Drink plenty of fluids. Continue diabetic diet.",
+  "submitted_by": "dr.iyer",
+  "medications": [
+    {"name": "amoxicillin-clavulanate", "dose_x1000": 625000, "dose_unit": "mg", "route": "oral",
+     "frequency": "three times a day after food", "duration_days": 5, "change_type": "new", "notes": null},
+    {"name": "paracetamol", "dose_x1000": 650000, "dose_unit": "mg", "route": "oral",
+     "frequency": "every 6 hours as needed for fever", "duration_days": 5, "change_type": "new", "notes": null},
+    {"name": "metformin", "dose_x1000": 500000, "dose_unit": "mg", "route": "oral",
+     "frequency": "twice daily with meals", "duration_days": null, "change_type": "continued", "notes": null},
+    {"name": "amlodipine", "dose_x1000": 5000, "dose_unit": "mg", "route": "oral",
+     "frequency": "once daily", "duration_days": null, "change_type": "continued", "notes": null},
+    {"name": "ceftriaxone", "dose_x1000": 1000000, "dose_unit": "mg", "route": "iv",
+     "frequency": "once daily (hospital only)", "duration_days": null, "change_type": "stopped", "notes": "switched to oral antibiotic"}
+  ]
+}

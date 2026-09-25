@@ -1,0 +1,26 @@
+{
+  "patient_ref": "PT-0001",
+  "patient_name": "Rohan Kulkarni",
+  "mrn": "MRN-448812",
+  "date_of_birth": "1991-03-14",
+  "patient_phone": "+91 98220 11234",
+  "admission_date": "2026-09-21",
+  "discharge_date": "2026-09-23",
+  "primary_diagnosis": "Acute appendicitis",
+  "secondary_diagnoses": [],
+  "procedures": ["Laparoscopic appendectomy"],
+  "clinical_course": "Presented with 18h RIF pain, fever 38.2C, raised WBC. USG c/w acute appendicitis. Underwent uncomplicated lap appy on 21/09. POD1 tolerating PO, ambulating. Afebrile, wounds clean and dry. D/C POD2.",
+  "follow_up": "Surgical OPD review in 7 days for wound check. Port-site sutures are absorbable; no removal needed.",
+  "warning_signs": "Fever above 38C, increasing abdominal pain, redness or discharge from wounds, persistent vomiting, not passing urine.",
+  "activity_and_diet": "Normal diet as tolerated. Walk daily. No heavy lifting (>5 kg) for 2 weeks. May shower after 48 hours.",
+  "submitted_by": "dr.mehta",
+  "medications": [
+    {"name": "paracetamol", "dose_x1000": 500000, "dose_unit": "mg", "route": "oral",
+     "frequency": "every 6 hours as needed for pain, maximum 4 doses in 24 hours", "duration_days": 5,
+     "change_type": "new", "notes": null},
+    {"name": "amoxicillin-clavulanate", "dose_x1000": 625000, "dose_unit": "mg", "route": "oral",
+     "frequency": "three times a day after food", "duration_days": 5, "change_type": "new", "notes": "complete the full course"},
+    {"name": "pantoprazole", "dose_x1000": 40000, "dose_unit": "mg", "route": "oral",
+     "frequency": "once daily before breakfast", "duration_days": 5, "change_type": "new", "notes": null}
+  ]
+}
